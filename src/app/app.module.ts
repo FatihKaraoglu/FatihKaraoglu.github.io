@@ -2,12 +2,12 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { CubeComponent } from './cube/cube.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CubeComponent
+    NavbarComponent
   ],
   imports: [
     BrowserModule
